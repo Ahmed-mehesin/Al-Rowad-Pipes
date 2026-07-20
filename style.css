@@ -368,6 +368,7 @@ footer { display: flex; justify-content: space-between; background-color: var(--
     .pdf-table thead tr { background-color: #2d6a6f; color: white; }
     .pdf-table th { padding: 11px 14px; text-align: left; font-size: 0.85rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.4px; border: 1px solid #dadce0; }
     .pdf-table td { padding: 11px 14px; font-size: 0.92rem; border: 1px solid #dadce0; }
+    .pdf-table .item-num-col { text-align: center; width: 40px;}
     .pdf-table tbody tr:nth-child(even) td { background-color: #f8f9fa; }
     .pdf-table .pdf-grand-total td { background-color: #eef1e7; font-weight: 800; font-size: 1rem; color: #4a6741; border-top: 2px solid #8a9b6e; }
     .pdf-footer { margin-top: 28px; text-align: center; font-size: 0.78rem; color: #5f6368; border-top: 1px solid #dadce0; padding-top: 10px; }
