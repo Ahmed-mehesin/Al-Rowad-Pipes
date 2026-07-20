@@ -262,12 +262,12 @@ tr:hover td { background-color: rgba(45,106,111,0.05); }
 .quotation-table { width: 100%; border-collapse: collapse; font-family: 'Montserrat', sans-serif; font-size: 0.95rem; }
 .quotation-table thead tr { background-color: #e8eeed; }
 .quotation-table thead th { padding: 13px 14px; text-align: left; font-weight: 700; color: var(--light); border-bottom: 2px solid var(--primary); font-size: 0.85rem; text-transform: uppercase; letter-spacing: 0.4px; white-space: nowrap; }
-.quotation-table tbody tr { border-bottom: 1px solid var(--border); transition: background 0.2s; text-align: center}
+.quotation-table tbody tr { border-bottom: 1px solid var(--border); transition: background 0.2s;}
 .quotation-table tbody tr:hover { background-color: rgba(45,106,111,0.04); }
 .quotation-table tbody td { padding: 13px 14px; vertical-align: middle; }
-.quotation-table .item-num { font-weight: 700; color: var(--primary); text-align: center; width: 10px; }
+.quotation-table .item-num { font-weight: 700; color: var(--primary); text-align: center;}
 .quotation-table .item-desc { font-weight: 600; }
-.quotation-table .item-num-col { text-align: left; }
+.quotation-table .item-num-col { text-align: center; }
 .quotation-table .item-amount { text-align: right; font-weight: 600; }
 .quotation-table .item-total { text-align: right; font-weight: 700; color: #4a6741; }
 .quotation-table .grand-total-row td { background-color: #eef1e7; font-weight: 800; font-size: 1.05rem; color: #4a6741; border-top: 3px solid var(--secondary); padding: 15px 14px; }
